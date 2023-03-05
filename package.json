@@ -1,0 +1,28 @@
+{
+  "name": "blockstate-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "babel --watch src ---out-dir build --extensions .ts --out-file-extension .mjs",
+    "build": "babel src --out-dir build --extensions .ts --out-file-extension .mjs",
+    "tsc": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/preset-stage-1": "^7.8.3",
+    "argparse": "^2.0.1",
+    "jsdom": "^21.1.0",
+    "node-fetch": "^3.3.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-pipeline-operator": "^7.18.9",
+    "@babel/preset-typescript": "^7.21.0",
+    "@types/node": "^18.14.6",
+    "typescript": "^4.9.5"
+  }
+}
